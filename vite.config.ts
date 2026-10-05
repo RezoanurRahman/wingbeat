@@ -1,0 +1,19 @@
+import preact from '@preact/preset-vite';
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  plugins: [preact()],
+  build: {
+    outDir: 'dist/client',
+    emptyOutDir: true,
+  },
+  server: {
+    port: 5173,
+    proxy: {
+      '/api': {
+        target: 'http://localhost:4173',
+        changeOrigin: true,
+      },
+    },
+  },
+});

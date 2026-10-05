@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Test output
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Caches
+.vite/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
