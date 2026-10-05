@@ -1,0 +1,9 @@
+{
+  "name": "Wingbeat",
+  "slug": "wingbeat",
+  "summary": "Wingbeat is a local-first birding field log for planning watch outings, recording sightings, and spotting seasonal patterns. A polished Preact workspace and typed Elysia API make it easy to run entirely on a laptop.",
+  "frontend": "Preact 10 + Vite 7",
+  "backend": "Elysia 1 + Node adapter",
+  "storage": "in-memory",
+  "language": "typescript"
+}
